@@ -294,7 +294,7 @@ body {
     /* Ajuste del título y logo en pantallas móviles */
     .logo-container h1 {
         font-size: 18px; /* Reduce el tamaño del texto */
-        margin-top: 20px; /* Aumenta el margen superior */
+        margin-top: 40px; /* Aumenta el margen superior */
     }
 
     .logo-container img {
@@ -306,7 +306,7 @@ body {
 @media (max-width: 480px) {
     .logo-container h1 {
         font-size: 16px; /* Ajuste adicional para pantallas muy pequeñas */
-        margin-top: 30px; /* Aumenta aún más el margen superior */
+        margin-top: 50px; /* Aumenta aún más el margen superior */
     }
 
     .logo-container img {
