@@ -278,12 +278,11 @@ body {
 
     .login-container, .social-login-container {
         width: 100%;
-        margin-bottom: 20px; /* Espacio entre los contenedores en pantallas pequeñas */
     }
 
     .modal-content {
-        width: 90%; /* Asegura que el modal ocupe casi todo el ancho en móviles */
-        padding: 20px;
+        width: 100%;
+        padding: 10px;
         box-shadow: none; /* Reducir la sombra en pantallas pequeñas */
     }
 
@@ -292,27 +291,26 @@ body {
         font-size: 14px; /* Ajuste de tamaño en dispositivos móviles */
     }
 
-    .logo-container img, 
-    .logo-container-registro img {
-        width: 100px; /* Tamaño más pequeño para pantallas pequeñas */
-        height: auto;
+    /* Ajuste del título y logo en pantallas móviles */
+    .logo-container h1 {
+        font-size: 18px; /* Reduce el tamaño del texto */
+        margin-top: 20px; /* Aumenta el margen superior */
+    }
+
+    .logo-container img {
+        width: 120px; /* Ajuste del logo */
+        height: 120px;
     }
 }
 
-/* Ajustes adicionales para pantallas más pequeñas */
 @media (max-width: 480px) {
-    .login-form label, 
-    .social-login-container h2 {
-        font-size: 14px; /* Reduce un poco el tamaño del texto en móviles pequeños */
+    .logo-container h1 {
+        font-size: 16px; /* Ajuste adicional para pantallas muy pequeñas */
+        margin-top: 30px; /* Aumenta aún más el margen superior */
     }
 
-    .login-form button, 
-    .modal-content button {
-        font-size: 16px; /* Ajusta el tamaño del botón en móviles */
-        padding: 12px; /* Aumenta ligeramente el padding para usabilidad */
-    }
-
-    .extra-options a {
-        font-size: 12px; /* Disminuye el tamaño del texto de los enlaces */
+    .logo-container img {
+        width: 100px; /* Ajuste del logo para pantallas pequeñas */
+        height: 100px;
     }
 }
